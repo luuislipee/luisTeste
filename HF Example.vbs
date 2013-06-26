@@ -18,4 +18,8 @@ Function LT12_save (objLT12)
 	SAPGuiSession("guicomponenttype:=12").SAPGuiWindows("guicomponenttype:=21").SAPGuiEdit("guicomponenttype:=40", "name:=btn\[11\]").Click
 End Function
 
+Function LT12_checkpoint ()
+	'do something here.
+End Function
+
 '*********************************************** LT12 **********************************************************
