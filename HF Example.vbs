@@ -1,0 +1,17 @@
+'*********************************************** LT12 **********************************************************
+
+Class objLT12
+	Public propertyOne
+	Public propertyTwo
+	Public propertyThree
+End Class
+
+Function LT12_createData()
+	Set LT12_createData = new objLT12
+End Function
+
+Function LT12_insertBasicData (objLT12)
+	SAPGuiSession("guicomponenttype:=12").SAPGuiWindows("guicomponenttype:=21").SAPGuiEdit("guicomponenttype:=32").Set objLT12.propertyOne
+End Function
+
+'*********************************************** LT12 **********************************************************
