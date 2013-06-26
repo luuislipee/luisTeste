@@ -14,4 +14,8 @@ Function LT12_insertBasicData (objLT12)
 	SAPGuiSession("guicomponenttype:=12").SAPGuiWindows("guicomponenttype:=21").SAPGuiEdit("guicomponenttype:=32").Set objLT12.propertyOne
 End Function
 
+Function LT12_save (objLT12)
+	SAPGuiSession("guicomponenttype:=12").SAPGuiWindows("guicomponenttype:=21").SAPGuiEdit("guicomponenttype:=40", "name:=btn\[11\]").Click
+End Function
+
 '*********************************************** LT12 **********************************************************
