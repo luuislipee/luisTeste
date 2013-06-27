@@ -22,4 +22,6 @@ Function LT12_checkpoint ()
 	'do something here.
 End Function
 
+'Comment to test!
+
 '*********************************************** LT12 **********************************************************
