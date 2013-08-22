@@ -7,7 +7,6 @@ Class objLT12
 	'comment
 	'comment
 	'comment
-	'comment
 End Class
 
 Function LT12_createData()
