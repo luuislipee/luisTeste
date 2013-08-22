@@ -4,6 +4,10 @@ Class objLT12
 	Public propertyOne
 	Public propertyTwo
 	Public propertyThree
+	'comment
+	'comment
+	'comment
+	'comment
 End Class
 
 Function LT12_createData()
