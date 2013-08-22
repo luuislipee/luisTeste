@@ -22,10 +22,6 @@ Function LT12_checkpoint ()
 	'do something here.
 End Function
 
-Function doSomething (withSomeParameter)
-	'do something
-End Function
-
 'Comment to test!
 
 '*********************************************** LT12 **********************************************************
