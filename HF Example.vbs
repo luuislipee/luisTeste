@@ -5,8 +5,6 @@ Class objLT12
 	Public propertyTwo
 	Public propertyThree
 	'comment
-	'comment
-	'comment
 End Class
 
 Function LT12_createData()
@@ -26,5 +24,7 @@ Function something()
 	'do something
 end Function
 'Comment to test!
+
+'Adicionando outra linha...
 
 '*********************************************** LT12 **********************************************************
